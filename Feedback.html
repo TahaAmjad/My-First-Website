@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<title> Feedback Form </title>
+
+<meta http_equiv="author" content="Taha Amjad"/>
+</head>
+
+<body bgcolor="#99CCFF" text="black" link="#0000CC" vlink="#993300" alink="#FF0000"><!-- background=light blue , link=Dark Blue , Viewed Link=Brown , Active link= Red -->
+<center> <h1> Feedback Form </h1></center>
+<form action="" method="">
+	<fieldset>
+		<legend> Please Fill in this form </legend><br>
+		<label for="name"> Enter your name : </label>
+		<input type="text" id="name" name="" placeholder="Enter your name" required="true" autofocus="true"><br><br>
+		<label for="email"> Enter your email : </label>
+		<input type="text" id="email" name="" placeholder="Enter your email" required="true" autofocus="true"><br><br>
+		<label for="city"> Enter your City : </label>
+		<input type="text" id="city" name="" placeholder="Enter your city" required="true" autofocus="true" value="Lahore"><br><br>
+		<label for="num"> Enter your Number : </label>
+		<input type="number" id="num" name="" placeholder="Enter your number" required="true" autofocus="true"><br><br>
+		<label for="edu"> Select your Education Level : </label>
+		<select id="edu">
+			<option value="default"> Select your Education</option>
+			<option value="1"> Matric</option>
+			<option value="2"> Intermediate</option>
+			<option value="3"> Graduation</option>
+		</select>
+		<br><br>
+		<label > Do you know html : </label>
+		<input type="radio" id="dh" name="yesorno" value="1" checked="true">
+		Yes
+		<input type="radio" id="dh" name="yesorno" value="0">
+		No
+		<br><br>
+		<label> What should I continue? </label>
+		<input type="checkbox" value=0">Engineering
+		<input type="checkbox" value=1" checked="true">Software Development
+		<br><br>
+		<input type="submit" value="Apply">
+		<input type="reset" value="Reset">
+	</fieldset>
+</form>
+<br>
+<font size="6">
+<a href="index.html" title="Click to Go Back">Back</a>
+</font>
+</body>
+
+</html>
